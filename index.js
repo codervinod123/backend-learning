@@ -12,6 +12,10 @@ app.get('/login',(req,res)=>{
     res.send("Hello login page");
  })
 
+ app.get('/register', (req, res) => {
+   res.send("Hello register page");
+});
+
  app.get('/data', (req, res) => {
    res.json(data);
 });
